@@ -44,7 +44,7 @@ def make_tic_tac_toe():
 #    print("4|5|6")
 #    print("-+-+-")
 #    print("7|8|9")
-
+# print game
 def print_tic_tac_toe(game) :
     print(f"{game[0]}|{game[1]}|{game[2]}")
     print(f"-+-+-")
@@ -52,7 +52,7 @@ def print_tic_tac_toe(game) :
     print(f"-+-+-")
     print(f"{game[6]}|{game[7]}|{game[8]}")
  
-
+# winner Check 
 def check_win(game):
     if ( game[0] == game[1] == game[2] or
          game[3] == game[4] == game[5] or
